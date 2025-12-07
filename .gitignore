@@ -1,0 +1,72 @@
+# Build output
+bin/
+obj/
+out/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# VS Code
+.vscode/
+
+# Rider
+.idea/
+
+# NuGet packages
+*.nupkg
+packages/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+~$*
+
+# ASP.NET Core config and secrets
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.local.json
+secret.json
+
+# Environment variables
+*.env
+
+# User Secrets folder (on Windows/Mac/Linux)
+**/secrets.json
+
+# Publish profiles (optional but recommended to ignore if credentials included)
+Properties/PublishProfiles/*.pubxml
+Properties/PublishProfiles/*.pubxml.user
+
+# Generated files
+*.dbmdl
+*.dbproj.schemaview
+
+# SSL Certificates created by Kestrel
+*.pfx
+*.pem
+*.crt
+*.key
+
+# SQLite DB (remove if you need to track it)
+*.db
+*.sqlite
+*.sqlite3
+
+# ReSharper / Rider caches
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# npm dependencies (if using client UI)
+node_modules/
+
+# Docker build output
+docker-compose.override.yml
